@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+
+	"name": "incognito-youtube",
+	"description": "Always open youtube in incognito",
+	"version": "0.1",
+
+	"background": {
+		"scripts": [
+			"incognito-youtube.js"
+		]
+	},
+
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://*.youtube.com/*",
+		"*://*.youtu.be/*"
+	]
+}
